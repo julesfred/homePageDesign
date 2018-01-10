@@ -1,5 +1,17 @@
+.navigation{
+    margin-top: -175px; 
+    display: flex;
+    position: relative;
+}
+
 .navigation_top {
     width: 100%;
-    margin-top: -175px;
     opacity: .75;
+}
+
+.navigation_top-picture{
+    position: absolute;
+    left: -208px;
+    width: 75%;
+    top: 260px;
 }
