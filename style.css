@@ -104,3 +104,25 @@ h1{
     font-size: 75px;
 }
 
+.navigation_top-menu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 322px;
+    top: 745px;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .8;
+    font-size: 45px;
+    list-style-type: none;
+}
+
+li{
+    padding-right: 25px;
+}
+
+a:hover {
+    color: #E68E6B;
+    cursor: pointer;
+}
+
