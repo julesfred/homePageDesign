@@ -97,8 +97,8 @@
 h1{
     color:#fff;
     position: absolute;
-    top: 662.5px;
-    right: 72px;
+    top: 668px;
+    left: 91px;
     font-family: 'Montserrat', sans-serif;
     opacity: .8;
     font-size: 75px;
@@ -108,7 +108,7 @@ h1{
     display: flex;
     flex-direction: row;
     position: absolute;
-    right: 322px;
+    left: 48px;
     top: 745px;
     color:#fff;
     font-family: 'Montserrat', sans-serif;
@@ -126,3 +126,24 @@ a:hover {
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        color: #fff;
+        position: absolute;
+        top: 560px;
+        left: 18px;
+        font-family: 'Montserrat', sans-serif;
+        opacity: .8;
+        font-size: 20px;
+    }
+
+    .navigation {
+        margin-top: -480px;
+        display: flex;
+        position: relative;
+        flex-direction: row;
+    }
+
+}
